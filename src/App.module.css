@@ -3,6 +3,35 @@
     width: 100vw;
     height: 100vh;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+
+}
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: #309EC2 3px solid;
+    width: 600px;
+    height: 300px;
+}
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 150px;
+    border: #309EC2 3px solid;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 60px;
+    flex-direction: row;
+    border: #309EC2 3px solid;
+    gap: 4rem;
 }

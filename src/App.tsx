@@ -14,9 +14,11 @@ function App() {
 
     return (
         <div className={classes.appContainer}>
-                <h1>{number}</h1>
-                <Button buttonName={'inc'} button={Plus}/>
-                <Button buttonName={'RESET'} button={Reload}/>
+            <div className={classes.counter}><h1 className={classes.number}>{number}</h1>
+                <div className={classes.buttons}>
+                    <Button buttonName={'inc'} button={Plus}/>
+                    <Button buttonName={'RESET'} button={Reload}/></div>
+            </div>
         </div>
     );
 }
